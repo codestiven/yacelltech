@@ -4,15 +4,6 @@
 
 Este proyecto tenía como objetivo desarrollar una página web para Yacelltech. Sin embargo, el proyecto fue cancelado y se decidió crear una nueva versión basada en los diseños disponibles en el sitio web oficial de Yacelltech: [yacelltech.com](https://yacelltech.com/). El proyecto cancelado se ha subido como un proyecto de muestra en [Vercel](https://webventasprueva.vercel.app/index.html).
 
-## Tecnologías Utilizadas
-
-El proyecto cancelado fue desarrollado utilizando las siguientes tecnologías:
-
-- **HTML**: Estructura básica del sitio web.
-- **CSS**: Estilos para la presentación visual.
-- **JavaScript**: Interactividad en la página.
-- **PHP**: Procesamiento del servidor (en caso de funcionalidades específicas).
-
 ## Enlace al Proyecto
 
 Puedes ver la versión cancelada del proyecto en el siguiente enlace: [Proyecto Cancelado en Vercel](https://webventasprueva.vercel.app/index.html).
