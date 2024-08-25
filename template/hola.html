@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Radiobuttons con JS</title>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <input type="radio" name="opcion" value="opcion 1" id="opcion">
+            <label for="opcion1">Opción 11</label>
+        </li>
+        <li>
+            <input type="radio" name="opcion" value="opcion 2" id="opcion2">
+            <label for="opcion2">Opción 2</label>
+        </li>
+        <li>
+            <input type="radio" name="opcion" value="opcion 3" id="opcion3">
+            <label for="opcion3">Opción 3</label>
+        </li>
+    </ul>
+
+    <p id="resultado"></p>
+
+    <script>
+        var opciones = document.getElementsByName('opcion');
+        var resultado = document.getElementById('resultado');
+
+        for (var i = 0; i < opciones.length; i++) {
+            opciones[i].addEventListener('change', function () {
+                manejarEvento();
+            });
+        }
+
+        function manejarEvento() {
+            var opcionSeleccionada = document.querySelector('input[name="opcion"]:checked').value;
+            resultado.textContent = 'Opción seleccionada: ' + opcionSeleccionada;
+
+
+            if (opcionSeleccionada == "opcion 3") {
+                alert("aaa")
+            }
+        }
+    </script>
+</body>
+
+</html>
